@@ -1,0 +1,39 @@
+
+div.container{
+    position: relative;
+    display: inline-block;
+}
+div.counterContainer{
+    position: absolute;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+div.counter{
+    /*
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    position: absolute;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    bottom: 600px;
+    left:0;
+    right: 0;
+
+    /*background*/
+    /*
+    width:60px;
+    height: 90px;
+    background-color: black;
+    */
+
+    /*text*/
+    color:rgb(72, 72, 72);
+    font-size: 70px;
+    font-weight: bolder
+}
